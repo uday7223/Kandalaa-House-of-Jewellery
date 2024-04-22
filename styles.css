@@ -43,7 +43,7 @@ i[class*="cart"]{
     margin-left: 70px;
 }
 
-ul{
+.header2 > ul{
     display: flex;
     list-style: none;
     justify-content: flex-end;
@@ -52,7 +52,7 @@ ul{
     left:-120px;
 }
 
-ul > li{
+.header > ul > li{
     margin-left: 2em;
     font-size: 14px;
     font-weight: 400;
@@ -113,5 +113,48 @@ margin-bottom: 50px;
 
 
 }
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:60px;
+}
+
+.heading > p{
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 28px;
+}
+.items{
+    margin: 40px 0px;
+
+
+}
+
+.items > img{
+    width: 120px;
+    margin-bottom:15px ;    
+
+
+}
+
+.collections {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Three columns */
+
+}
+
+#smalltxt{
+    font-size:16px;
+    font-weight:400;
+}
+
 
 
